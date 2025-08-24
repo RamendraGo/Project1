@@ -11,9 +11,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'src/**'
-      - 'tests/**'
     paths-ignore:  
       - '.github/workflows/*'    
   workflow_dispatch:  
