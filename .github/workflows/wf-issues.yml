@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Output Issue Event Info
-        run: echo "The issue event action is ${{ toJson(github.event) }} for issue #${{ toJson(github.event.issue.number) }}."
+        run: echo "The issue event action is ${{ toJson(github.event) }} "
       - name: Output Full Github Context
         run: echo "Github ${{ toJson(github) }}."
