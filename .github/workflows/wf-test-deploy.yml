@@ -18,6 +18,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Run tests
+              run: npm ci
+            - name: Execute tests
               run: npm test          
     deploy:
         needs: test
