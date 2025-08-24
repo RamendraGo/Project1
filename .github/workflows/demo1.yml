@@ -30,3 +30,4 @@ jobs:
         run: npm run build
       - name: Deploy project
         run: echo "Deploying..."
+        # This is a placeholder for actual deployment commands
